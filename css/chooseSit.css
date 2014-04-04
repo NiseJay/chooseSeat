@@ -1,0 +1,21 @@
+
+.warp{width: 960px;margin: 50px auto;}
+.none{display: none!important;}
+
+/*电影票选坐样式*/
+.bb_selectSit{width: 680px;height: 400px; margin-top: 20px;}
+.bb_selectSit_row{width: 100%;height: 28px;}
+.bb_selectSit_row_col {float: left;display: inline-block;margin-right: 5px;width: 20px;height: 17px;}
+.bb_selectSit_row_col .num{margin-right: 10px; font-weight: bold;}
+.seat{width: 20px;height: 17px;display: inline-block;background: url("../img/sp-seats.png") no-repeat;text-indent: -10000px; cursor: pointer;}
+.seat.unbooked{background-position:-27px 0; }
+.seat.unbooked:hover{background-position:-127px 0; }
+.seat.booked{background-position:-77px 0; }
+.seat.disabled{background-position:-52px 0; }
+.seat.love{background-position:-102px 0; }
+.seat.love.booked{background-position:-77px 0; }
+
+/*已选座位样式*/
+.J_selectedSeats{position: absolute;left: 60%;top: 200px;}
+.J_selectedSeats ul li {width: 77px;height: 26px;margin: 0 5px 10px 0;display: inline-block;text-align: center;line-height: 27px;background: #fffbde;}
+.J_selectedSeats ul li.select{background: url("../img/sp-seats.png") no-repeat -150px 0;}
